@@ -39,7 +39,7 @@ in {
       };
     };
     window = {
-      position = "right";
+      position = "left";
       autoExpandWidth = true;
       mappings = {
         "s" = "open_split";

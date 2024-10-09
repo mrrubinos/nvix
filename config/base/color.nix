@@ -1,0 +1,5 @@
+{
+  colorschemes.ayu = {
+    enable = true;
+  };
+}

@@ -34,7 +34,7 @@ with lib; {
     cmdheight = 0;
 
     number = true;
-    relativenumber = true;
+    relativenumber = false;
     numberwidth = 2;
     ruler = false;
 
