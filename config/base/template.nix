@@ -7,7 +7,7 @@ let
       owner = "nvimdev";
       repo = "template.nvim";
       rev = "59955db23613985e031d340756d5c01aebd583a3";
-      #      hash = "sha256-rQi/AOTFHkuysAknDaV6i3rtF2bwTRcEh4Tz0JXs6Qc=";
+      hash = "sha256-SsTqdOve0uAP9fApBSVIUj0JIOjneQD02CXbA0dRCWo=";
     };
   };
 in {

@@ -7,7 +7,7 @@ let
       owner = "meinside";
       repo = "gemini.nvim";
       rev = "d1ec0f732a25b6f38c6d87f6c8677f2f2a7ac6ae";
-      #      hash = "sha256-rQi/AOTFHkuysAknDaV6i3rtF2bwTRcEh4Tz0JXs6Qc=";
+      hash = "sha256-SsTqdOve0uAP9fApBSVIUj0JIOjneQD02CXbA0dRCWo=";
     };
   };
 in {
