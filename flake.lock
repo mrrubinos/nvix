@@ -37,6 +37,22 @@
         "type": "github"
       }
     },
+    "erlang_ls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728738408,
+        "narHash": "sha256-9NMEfStHGZAr9rhIaMAJmX5y/uV28FknKcNxD2GoAOs=",
+        "owner": "erlang-ls",
+        "repo": "erlang_ls",
+        "rev": "b8724fb8402c822da5e6d36d1711ac67fef76389",
+        "type": "github"
+      },
+      "original": {
+        "owner": "erlang-ls",
+        "repo": "erlang_ls",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "locked": {
         "lastModified": 1696426674,
@@ -105,6 +121,22 @@
       "original": {
         "owner": "numtide",
         "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "gemini": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724207782,
+        "narHash": "sha256-a0CTw9Hb7RAUockqLc4nw64IqM+EjezatyCGQG38Ilw=",
+        "owner": "meinside",
+        "repo": "gemini.nvim",
+        "rev": "d1ec0f732a25b6f38c6d87f6c8677f2f2a7ac6ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "meinside",
+        "repo": "gemini.nvim",
         "type": "github"
       }
     },
@@ -347,13 +379,16 @@
     "root": {
       "inputs": {
         "buffer-manager": "buffer-manager",
+        "erlang_ls": "erlang_ls",
         "flake-parts": "flake-parts",
+        "gemini": "gemini",
         "md-pdf": "md-pdf",
         "minty": "minty",
         "nixpkgs": "nixpkgs",
         "nixvim": "nixvim",
         "nvim-window-picker": "nvim-window-picker",
         "rnoweb": "rnoweb",
+        "template": "template",
         "volt": "volt",
         "windows": "windows",
         "windows-a": "windows-a",
@@ -372,6 +407,22 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "template": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724479548,
+        "narHash": "sha256-SsTqdOve0uAP9fApBSVIUj0JIOjneQD02CXbA0dRCWo=",
+        "owner": "nvimdev",
+        "repo": "template.nvim",
+        "rev": "59955db23613985e031d340756d5c01aebd583a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nvimdev",
+        "repo": "template.nvim",
         "type": "github"
       }
     },
