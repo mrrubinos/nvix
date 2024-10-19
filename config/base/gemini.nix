@@ -6,7 +6,7 @@ let
     src = pkgs.fetchFromGitHub {
       owner = "meinside";
       repo = "gemini.nvim";
-      rev = "59955db23613985e031d340756d5c01aebd583a3";
+      rev = "d1ec0f732a25b6f38c6d87f6c8677f2f2a7ac6ae";
       #      hash = "sha256-rQi/AOTFHkuysAknDaV6i3rtF2bwTRcEh4Tz0JXs6Qc=";
     };
   };
@@ -26,7 +26,7 @@ in {
               end,
               verbose = false,
             }
-          ''
+          '';
     }
   ];
 }
