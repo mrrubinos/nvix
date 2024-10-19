@@ -13,13 +13,23 @@
       flake = false;
     };
 
-    minty = {
-      url = "github:NvChad/minty";
+    erlang_ls = {
+      url = "github:erlang-ls/erlang_ls";
       flake = false;
     };
 
-    volt = {
-      url = "github:NvChad/volt";
+    gemini = {
+      url = "github:meinside/gemini.nvim";
+      flake = false;
+    };
+
+    md-pdf = {
+      url = "github:arminveres/md-pdf.nvim";
+      flake = false;
+    };
+
+    minty = {
+      url = "github:NvChad/minty";
       flake = false;
     };
 
@@ -33,8 +43,13 @@
       flake = false;
     };
 
-    md-pdf = {
-      url = "github:arminveres/md-pdf.nvim";
+    template = {
+      url = "github:nvimdev/template.nvim";
+      flake = false;
+    };
+
+    volt = {
+      url = "github:NvChad/volt";
       flake = false;
     };
 
