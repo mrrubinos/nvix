@@ -38,11 +38,6 @@
       flake = false;
     };
 
-    rnoweb = {
-      url = "github:bamonroe/rnoweb-nvim";
-      flake = false;
-    };
-
     template = {
       url = "github:nvimdev/template.nvim";
       flake = false;
