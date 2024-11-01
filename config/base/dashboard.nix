@@ -10,6 +10,13 @@
         footer = [ " " " " "Don't Stop Until You are Proud" ];
         shortcut = [
           {
+            desc = "+ newBuffer ";
+            group = "Number";
+            key = "0";
+            action = "enew";
+          }
+
+          {
             desc = "  prevSession ";
             group = "Number";
             key = ".";
