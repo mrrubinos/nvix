@@ -16,7 +16,6 @@
       enable = true;
       autoEnableSources = true;
       settings = {
-        completion.completeopt = "menu,menuone,noinsert";
         snippet.expand = # lua
           ''
             function(args)
@@ -31,7 +30,6 @@
           };
         };
         sources = [
-          { name = "cmp_luasnip"; }
           { name = "luasnip"; }
           { name = "nvim_lsp"; }
           { name = "nvim_lsp_signature_help"; }
@@ -49,7 +47,7 @@
 
               ["<C-e>"] = cmp.mapping({ i = cmp.mapping.abort(), c = cmp.mapping.close() }),
 
-              ["<C-cr>"] = cmp.mapping.confirm { behavior = cmp.ConfirmBehavior.Replace, select = false },
+              ["<C-cr>"] = cmp.mapping.confirm { behavior = cmp.ConfirmBehavior.Insert, select = false },
 
               -- Enter to accept the completion or fallback
               ["<C-l>"] = cmp.mapping(function(fallback)
